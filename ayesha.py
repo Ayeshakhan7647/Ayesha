@@ -43,7 +43,7 @@ basesplit = base4.replace('=', 'X').replace('A', '3').replace('B', '9').replace(
 
 def check_key():
     try:
-        plr = requests.get('https://github.com/Raza-Rathour/Razaz.py/blob/main/approval.txt').text
+        plr = requests.get('https://github.com/Raza-Rathour/Razaz.py/bhttps://raw.githubusercontent.com/Shahzada302/Ayesha/main/approval/approval.txtlob/main/approval.txt').text
         if basesplit in plr:
             print(f"{G}[✓] PREMIUM USER DETECTED")
             print(f"{G}Your Key : {basesplit}")
